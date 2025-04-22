@@ -28,8 +28,14 @@ h1 {
   font-size: 2rem;
 }
 
+.score-container {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
 .button-container {
-  padding: 64px;
+  padding: 32px;
   display: flex;
   gap: 8px;
 }
@@ -53,4 +59,8 @@ p {
   font-size: large;
   font-weight: bold;
   color: #333;
+}
+
+.hidden {
+  visibility: hidden;
 }
